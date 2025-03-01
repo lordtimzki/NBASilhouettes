@@ -4,37 +4,33 @@ Submitted by: **Timothy Dacalos**
 
 This web app: **NBA Silhouettes**
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [ ] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [ ] **A list of card pairs is created**
-- [ ] **Clicking on the card shows the corresponding component of the information pair**
-- [ ] **Clicking the next button displays a random new card**
+- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
+- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
+- [x] **A list of card pairs is created**
+- [x] **Clicking on the card shows the corresponding component of the information pair**
+- [x] **Clicking the next button displays a random new card**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] _visual style implemented_
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you added to improve the site's functionality!
+- [x] Cards contains images in addition to or in place of text
+- [x] Cards have different visual styles such as color based on their category
+  - [x] _color-coded based on difficulty (easy,medium,hard)_
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Video Walkthrough](https://i.imgur.com/QgfjKXi.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
+GIF created with Kap
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -43,11 +39,13 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Making the design on Figma was a good thing to do.
+The card flipping was the most difficult to implement, needing to use GitHub Copilot for assistance.
+Also assistance on the randomizer. Also, the first ten should be shuffled, but after that, it reshuffles.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Timothy Dacalos]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
