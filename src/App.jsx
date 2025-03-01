@@ -5,9 +5,23 @@ import players from "./Players";
 import { useState } from "react";
 
 function App() {
+  const [seenIndices, setSeenIndices] = useState([0]);
   const [index, setIndex] = useState(0);
   const handleNext = () => {
-    setIndex((prevIndex) => (prevIndex + 1) % players.length);
+    if (seenIndices.length >= players.length) {
+      const newIndex = Math.floor(Math.random() * players.length);
+      setSeenIndices([newIndex]);
+      setIndex(newIndex);
+      return;
+    }
+
+    let newIndex;
+    do {
+      newIndex = Math.floor(Math.random() * players.length);
+    } while (seenIndices.includes(newIndex));
+
+    setSeenIndices([...seenIndices, newIndex]);
+    setIndex(newIndex);
   };
 
   let currentPlayer = players[index];

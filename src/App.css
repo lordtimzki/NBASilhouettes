@@ -50,6 +50,11 @@ h1 {
   backface-visibility: hidden;
 }
 
+.Card-front img,
+.Card-back img {
+  opacity: 1;
+}
+
 .Card-back {
   transform: rotateY(180deg);
 }
@@ -64,10 +69,6 @@ h1 {
 
 #hard {
   background-color: red;
-}
-
-.Card img {
-  filter: brightness(0%);
 }
 
 button {
