@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-[Video Walkthrough](https://i.imgur.com/QgfjKXi.gif)
+[Video Walkthrough](https://i.ibb.co/1J4QkQ6V/Kapture-2025-03-01-at-14-13-36.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
